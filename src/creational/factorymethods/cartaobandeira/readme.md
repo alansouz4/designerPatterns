@@ -1,0 +1,5 @@
+- CartaoCredito é a interface produto.
+- Visa, MasterCard e Amex são produtos concretos.
+- CartaoFactory é o criador abstrato.
+- Cada fábrica concreta (VisaFactory, MasterCardFactory, AmexFactory) decide qual cartão instanciar.
+- O cliente (Main) só chama executarTransacao, sem se preocupar com os detalhes de criação.

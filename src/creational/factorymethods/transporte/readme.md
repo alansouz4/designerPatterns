@@ -1,0 +1,5 @@
+- Logistica é a classe fábrica abstrata.
+- Logistica é a classe que fornece a interface para criar objetos em uma superclasse
+- Logistica permite que as subclasses alterem o tipo de objetos que serão criados.
+- LogisticaRodoviaria e LogisticaMaritima decidem qual transporte criar.
+- O cliente (Main) não precisa saber como o objeto é criado, apenas usa o método planejarEntrega.
