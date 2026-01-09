@@ -6,9 +6,6 @@ import creational.factorymethods.eloremuneracao.fabrica.concreto.EloRefeicaoFact
 
 public class EloMain {
     static void main() {
-        EloFactory factoryCredito = new EloCreditoFactory();
-        factoryCredito.processarRemuneracao(854.00);
-
         EloFactory factoryAlimentacao = new EloAlimentacaoFactory();
         factoryAlimentacao.processarRemuneracao(950.00);
 
